@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="description" content="Social media dashboard with theme switcher">
+  <meta name="author" content="Jelena Randjelovic">
+  <meta name="keywords" content="Social Media Dashboard, social, media, theme, theme switcher, dashboard, frontend mentor, followers, theme">
+  <title>Frontend Mentor | Social media dashboard with theme switcher</title>
+  <!--Logo-->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--Google Icons-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+<body>
+  <!--HEADER-->
+  <header class="header">
+    <div class="inner">
+      <!--main heading-->
+      <div class="main-info">
+        <h3 id="main-title">Social Media Dashboard</h3>
+        <p class="title">Total Followers: 23,004</p>
+      </div>
+      <!--toggle theme-->
+      <div class="switch-mode">
+        <span id="mode-name">Dark Mode</span>
+        <div class="btn-group">
+          <button type="button" id="switch-btn" class="dark">
+            <span class="material-symbols-outlined">radio_button_unchecked</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!--MAIN CONTENT-->
+  <main class="main">
+    <div class="inner">
+      <section class="section followers">
+
+        <div class="followers-box box-facebook">
+          <div class="account-info">
+            <img src="images/icon-facebook.svg" class="icon account-icon" alt="facebook logo"/>
+            <p class="account-name"> @nathanf</p>
+          </div>
+          <div class="followers-num"><p class="f-num">1987</p></div>
+          <p class="board-title">Followers</p>
+          <div class="percentage-num review-num up">
+            <img src="images/icon-up.svg" class="arrow" alt="arrow up icon "/>
+            <span>12 Today</span>
+          </div>
+        </div>
+      
+        <div class="followers-box box-twitter">
+          <div class="account-info">
+            <img src="images/icon-twitter.svg" class="icon account-icon" alt="twitter logo"/>
+            <p class="account-name">@nathanf</p>
+          </div>
+          <div class="followers-num"><p class="f-num">1044</p></div>
+          <p class="board-title">Followers</p>
+          <div class="percentage-num review-num up">
+            <img src="images/icon-up.svg" class="arrow" alt="arrow up icon"/>
+            <span>99 Today</span>
+          </div>
+        </div>
+        
+        <div class="followers-box box-instagram">
+          <div class="account-info">
+            <img src="images/icon-instagram.svg" class="icon account-icon" alt="instagram logo"/>
+            <p class="account-name">@realnathanf</p>
+          </div>
+          <div class="followers-num">
+            <p class="f-num">11k</p>
+          </div>
+          <p class="board-title">Followers</p>
+          <div class="percentage-num review-num up">
+            <img src="images/icon-up.svg" class="arrow" alt="arrow up icon"/>
+            <span>1099 Today</span>
+            </div>
+        </div>
+
+        <div class="followers-box box-youtube">
+          <div class="account-info">
+            <img src="images/icon-youtube.svg" class="icon account-icon" alt="youtube logo"/>
+            <p class="account-name">Nathan F.</p>
+          </div>
+          <div class="followers-num"><p class="f-num">8239</p></div>
+          <p class="board-title">Subscribers</p>
+          <div class="percentage-num review-num down">
+            <img src="images/icon-down.svg" class="arrow" alt="arrow down icon"/>
+            <span>144 Today</span>
+          </div>
+        </div>
+      </section>
+
+      <p class="overview-today-title">Overview - Today</p>
+
+      <section class="section overview">
+        <div class="overview-box">
+          <div class="titles">
+            <p class="action">Page Views</p>
+            <img src="images/icon-facebook.svg" alt="facebook logo"/>
+          </div>
+          <div class="overview-numbers">
+            <p class="action-num">87</p>
+            <div class="overview-percentage up">
+              <img src="images/icon-up.svg" class="arrow" alt="arrow up icon"/>
+              <span>3%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="overview-box">
+          <div class="titles">
+            <p class="action">Likes</p>
+            <img src="images/icon-facebook.svg" alt="facebook logo"/>
+          </div>
+          <div class="overview-numbers">
+            <p class="action-num">52</p>
+            <div class="overview-percentage down">
+              <img src="images/icon-down.svg" class="arrow" alt="arrow down icon"/>
+              <span>-2%</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="overview-box">
+          <div class="titles">
+            <p class="action">Likes</p>
+            <img src="images/icon-instagram.svg" alt="instagram logo"/>
+          </div>
+          <div class="overview-numbers">
+            <p class="action-num">5462</p>
+            <div class="overview-percentage up">
+              <img src="images/icon-up.svg" class="arrow" alt="arrow up icon"/>
+              <span>2257%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="overview-box">
+          <div class="titles">
+            <p class="action">Profile Views</p>
+            <img src="images/icon-instagram.svg" alt="instagram logo"/>
+          </div>
+          <div class="overview-numbers">
+            <p class="action-num">52k</p>
+            <div class="overview-percentage up">
+              <img src="images/icon-up.svg" class="arrow" alt="arrow up icon"/>
+              <span>1375%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="overview-box">
+          <div class="titles">
+            <p class="action">Retweets</p>
+            <img src="images/icon-twitter.svg" alt="twitter logo"/>
+          </div>
+          <div class="overview-numbers">
+            <p class="action-num">117</p>
+            <div class="overview-percentage up">
+              <img src="images/icon-up.svg" class="arrow" alt="arrow up icon"/>
+              <span>303%</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="overview-box">
+          <div class="titles">
+            <p class="action">Likes</p>
+            <img src="images/icon-twitter.svg" alt="twitter logo"/>
+          </div>
+          <div class="overview-numbers">
+            <p class="action-num">507</p>
+            <div class="overview-percentage up">
+              <img src="images/icon-up.svg" class="arrow" alt="arrow up icon"/>
+              <span>553%</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="overview-box">
+          <div class="titles">
+            <p class="action">Likes</p>
+            <img src="images/icon-youtube.svg" alt="youtube logo"/>
+          </div>
+          <div class="overview-numbers">
+            <p class="action-num">107</p>
+            <div class="overview-percentage down">
+              <img src="images/icon-down.svg" class="arrow" alt="arrow down icon"/>
+              <span>19%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="overview-box">
+          <div class="titles">
+            <p class="action">Total Views</p>
+            <img src="images/icon-youtube.svg" alt="youtube logo"/>
+          </div>
+          <div class="overview-numbers">
+            <p class="action-num">1407</p>
+            <div class="overview-percentage down">
+              <img src="images/icon-down.svg" class="arrow" alt="arrow down icon"/>
+              <span>12%</span>
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </div>
+  </main>
+
+  
+  <!--JavaScript File-->
+  <script src="js/main.js"></script>
+</body>
+</html>
